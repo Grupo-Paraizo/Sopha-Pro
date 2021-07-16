@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import ButtonList from './components/ButtonList';
 import ButtonMap from './components/ButtonMap';
+import SearchInput from './components/SearchInput';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
         <ButtonList />
         <ButtonMap />
       </div>
-
+      <SearchInput />
     </div>
   );
 }

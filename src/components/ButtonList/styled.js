@@ -4,13 +4,14 @@ export const Button = styled.button`
    display:flex;
    align-items:center;
    background: #594aa0;
-   width: 15rem;
+   width: 20rem;
    padding: 1rem 1.5rem;
    font-size: 1.5rem;
    border-radius:.6rem 0 0 .6rem;
    font-weight: bold;
    color:#9184c5;
    border:none;
+   cursor: pointer;
       img{
          margin-right: .7rem;
          width:2.2rem;
