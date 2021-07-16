@@ -1,14 +1,17 @@
 import React from 'react';
 import './App.css';
-import ButtonLista from './components/ButtonList';
-import ButtonMapa from './components/ButtonMap';
+import ButtonList from './components/ButtonList';
+import ButtonMap from './components/ButtonMap';
+/*import ContainerBtn from './components/containers/buttomContainer';*/
 
 function App() {
   return (
     <div className="container">
-      <ButtonLista />
+      <div className="containerBtn">
+        <ButtonList />
+        <ButtonMap />
+      </div>
 
-      <ButtonMapa />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from './styled';
 
-function ButtonLista() {
+function ButtonList() {
    return (
       <Button>
          <img src="../../../iconList.svg" alt=""></img>
@@ -10,4 +10,4 @@ function ButtonLista() {
    );
 }
 
-export default ButtonLista;
+export default ButtonList;
