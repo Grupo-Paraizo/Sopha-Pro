@@ -4,7 +4,7 @@ import { Button } from './styled';
 function ButtonLista() {
    return (
       <Button>
-         <img src="" alt=""></img>
+         <img src="../../../iconList.svg" alt=""></img>
          Lista
       </Button>
    );

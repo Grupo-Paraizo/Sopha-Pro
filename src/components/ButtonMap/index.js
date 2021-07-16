@@ -4,7 +4,7 @@ import { Button } from './styled';
 function ButtonMapa() {
    return (
       <Button>
-         <img src="" alt=""></img>
+         <img src="../../../mapIcon.svg" alt=""></img>
          Mapa
       </Button>
    );
