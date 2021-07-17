@@ -12,8 +12,12 @@ export const Button = styled.button`
    color:#f7f7f7;
    border:none;
    cursor: pointer;
+   transition:.2s;
       img{
          margin-right: .7rem;
          width:2.2rem;
+      }
+      &:hover{
+         filter:brightness(1.1);
       }
 `;

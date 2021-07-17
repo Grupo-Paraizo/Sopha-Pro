@@ -12,9 +12,13 @@ export const Button = styled.button`
    color:#9184c5;
    border:none;
    cursor: pointer;
+   transition:.2s;
       img{
          margin-right: .7rem;
          width:2.2rem;
          color:#9184c5;
+      }
+      &:hover{
+         filter:brightness(1.1);
       }
 `;

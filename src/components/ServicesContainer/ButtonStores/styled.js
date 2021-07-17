@@ -10,6 +10,7 @@ export const Button = styled.button`
    font-weight: bold;
    border:.1rem solid #b4b5b7;
    cursor: pointer;
+   transition:.2s;
       p{
          color:#fff;
          font-size:1.5rem;
@@ -17,4 +18,7 @@ export const Button = styled.button`
       img{
          margin-right: .7rem;
       }
+         &:hover{
+            filter:brightness(1.1);
+         }
 `;
