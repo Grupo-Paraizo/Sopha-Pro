@@ -6,6 +6,7 @@ import StoreOptionBtn from './ButtonStores';
 function ServicesOptions() {
    return (
       <ServicesTypes>
+         <h2>Tipo de serviço</h2>
          <StoreOptionBtn />
          <ProfessionalOptionBtn />
       </ServicesTypes>
