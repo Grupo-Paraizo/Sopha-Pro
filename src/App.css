@@ -8,8 +8,9 @@ body {
   background-color: rgb(231, 230, 230);
 }
 .mainContainer {
-  max-width: 90vw;
-  margin: 1.2rem 10rem 0 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1.5rem 3rem 3rem 1.5rem;
 }
 
 .containerBtn {
