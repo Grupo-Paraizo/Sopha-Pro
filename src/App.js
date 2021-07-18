@@ -21,7 +21,7 @@ function App() {
           <ServicesOptions />
         </section>
       </section>
-      <section className="resultsContainer">
+      <section>
         <GeolocationServicesContainer />
         <GeolocationServicesContainer />
         <GeolocationServicesContainer />
