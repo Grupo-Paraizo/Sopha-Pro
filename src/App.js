@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import SearchInput from './components/SearchInput';
+import SearchContainer from './components/SearchBox';
 import GeolocationServicesContainer from './components/GeolocalionServicesContainer';
 
 function App() {
   return (
     <div className="mainContainer">
-      <section className="sideContainer">
-        <SearchInput />
+      <section>
+        <SearchContainer />
       </section>
       <section>
         <GeolocationServicesContainer />
