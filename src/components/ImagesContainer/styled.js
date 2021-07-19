@@ -4,7 +4,7 @@ export const ContainerImg = styled.div`
    justify-content:space-between;
    align-items:center;
    background:#d7d8da;
-   width:36rem;
+   width:30rem;
    height:25rem;
       button{
          border:none;
@@ -13,6 +13,6 @@ export const ContainerImg = styled.div`
          cursor: pointer;
       }
          img{
-            width:2.5rem;
+            max-width:2.5rem;
          }
 `

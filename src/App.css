@@ -2,28 +2,26 @@
   font-size: 10px;
   font-family: "Courier New", Courier, monospace;
 }
-body {
-  margin: 0;
-  padding: 0;
-  background-color: rgb(231, 230, 230);
-}
 .mainContainer {
   display: flex;
   flex-wrap: wrap;
-  margin: 2rem;
+  flex: 1;
+  margin: 1.5rem 2rem;
 }
-
-.containerBtn {
-  width: 36rem;
-  display: flex;
-  align-items: center;
+header {
+  display: inline-block;
 }
-
-.sideMenuContainer {
-  box-sizing: border-box;
-  width: 35rem;
-  height: 20rem;
-  border: none;
-  border-radius: 0.8rem;
-  margin-top: 1rem;
+@media (max-width: 800px) {
+  div {
+    display: grid;
+    grid-template-columns: 90vw;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem 1.5rem;
+  }
+  GeolocationServicesContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 90vw;
+  }
 }
