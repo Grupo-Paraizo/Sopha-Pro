@@ -7,9 +7,7 @@ import HeaderContainer from './components/Header';
 function App() {
   return (
     <div>
-
       <HeaderContainer />
-
       <div className="mainContainer">
         <section className="searcMenu">
           <SearchContainer />
