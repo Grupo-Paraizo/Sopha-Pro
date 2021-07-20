@@ -1,8 +1,10 @@
 import styled from "styled-components";
 
 export const NameContainer = styled.div`
+   grid-area:column3;
    margin-left:1.9rem;
    margin-top:1.6rem;
+   margin-bottom:2.4rem;
    display:flex;
    align-items:center;
    max-width:41.5rem;
