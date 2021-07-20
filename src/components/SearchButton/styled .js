@@ -17,6 +17,6 @@ export const Button = styled.button`
    cursor: pointer;
    transition:.2s;
       &:hover{
-         filter:brightness(1.1)
+         filter:brightness(1.3)
       }
 `
