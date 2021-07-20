@@ -4,8 +4,6 @@ import { TextArea } from './styled';
 function Description() {
    return (
       <TextArea>
-
-
       </TextArea>
    )
 }

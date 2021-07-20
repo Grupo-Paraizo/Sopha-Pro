@@ -2,6 +2,7 @@ import React from 'react';
 import { Container } from './styled';
 import ImgServicesContainer from '../ImagesContainer';
 import SectionProfessionals from '../ContainerProfessionalsInfo';
+import ContactList from '../SocialNetWork';
 
 
 function GeolocationServicesContainer() {
@@ -9,6 +10,7 @@ function GeolocationServicesContainer() {
       <Container>
          <ImgServicesContainer />
          <SectionProfessionals />
+         <ContactList />
       </Container>
 
    );

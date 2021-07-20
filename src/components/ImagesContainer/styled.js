@@ -5,7 +5,7 @@ export const ContainerImg = styled.div`
    justify-content:space-between;
    align-items:center;
    background:#d7d8da;
-   width:30rem;
+   width:35rem;
    height:25rem;
       button{
          border:none;
