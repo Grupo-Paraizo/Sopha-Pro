@@ -4,7 +4,7 @@ import ProfessionalNameContainer from '../ProfessionalName';
 import AdressContainer from '../Adress';
 import Description from '../DescriptionContainer';
 
-function SectionProfessionals() {
+const SectionProfessionals = () => {
    return (
       <Container>
          <ProfessionalNameContainer />

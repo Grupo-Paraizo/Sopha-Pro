@@ -2,7 +2,7 @@ import React from 'react';
 import { Header } from './styled';
 import NavMenu from '../HeaderMenu';
 
-function HeaderContainer() {
+const HeaderContainer = () => {
    return (
       <Header>
          <NavMenu />

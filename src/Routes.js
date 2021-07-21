@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import GeolocationPage from './Pages/GeolocalionPage';
 
 
-function Routes() {
+const Routes = () => {
    return (
       <Switch>
          <Route exact path="/GeolocationPage">

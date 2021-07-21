@@ -1,7 +1,7 @@
 import React from 'react';
 import { Menu } from './styled';
 
-function NavMenu() {
+const NavMenu = () => {
    return (
       <Menu>
          <li><a href="/"><img src="../../../LogoSopha.svg" alt=""></img></a></li>

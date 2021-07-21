@@ -1,10 +1,10 @@
 import React from 'react';
 import { TextArea } from './styled';
 
-function Description() {
+const Description = () => {
    return (
       <TextArea>
-      </TextArea>
+      </TextArea >
    )
 }
 export default Description;

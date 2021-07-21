@@ -1,7 +1,7 @@
 import React from 'react';
 import { AdressDiv } from './styled';
 
-function AdressContainer() {
+const AdressContainer = () => {
    return (
       <AdressDiv>
          <img src="../../../adress.svg" alt=""></img>

@@ -2,7 +2,7 @@
 import React from 'react';
 import { ContainerImg } from './styled';
 
-function ImgServicesContainer() {
+const ImgServicesContainer = () => {
    return (
       <ContainerImg>
          <button>
