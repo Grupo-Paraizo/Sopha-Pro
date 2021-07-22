@@ -2,7 +2,7 @@
 import React from 'react';
 import { Search } from './styled';
 
-function SearchInput() {
+const SearchInput = () => {
    return (
       <Search>
 

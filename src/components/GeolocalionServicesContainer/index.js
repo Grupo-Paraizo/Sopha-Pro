@@ -5,13 +5,15 @@ import SectionProfessionals from '../ContainerProfessionalsInfo';
 import ContactList from '../SocialNetWork';
 
 
-function GeolocationServicesContainer() {
+const GeolocationServicesContainer = () => {
    return (
-      <Container>
-         <ImgServicesContainer />
-         <SectionProfessionals />
-         <ContactList />
-      </Container>
+      <div>
+         <Container>
+            <ImgServicesContainer />
+            <SectionProfessionals />
+            <ContactList />
+         </Container>
+      </div>
 
    );
 }

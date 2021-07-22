@@ -3,7 +3,7 @@ import SearchInput from '../SearchInput';
 import SearchBtn from '../SearchButton';
 import { Container } from './styled';
 
-function SearchContainer() {
+const SearchContainer = () => {
    return (
       <Container>
          <SearchInput />

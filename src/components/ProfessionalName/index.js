@@ -1,7 +1,7 @@
 import React from 'react';
 import { NameContainer } from './styled'
 
-function ProfessionalNameContainer() {
+const ProfessionalNameContainer = () => {
    return (
       <NameContainer>
          <div>
