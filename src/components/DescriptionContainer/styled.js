@@ -5,8 +5,15 @@ export const TextArea = styled.textarea`
    padding:.8rem;
    margin:1rem 2.7rem ;
    outline:none;
-   width:43.2rem;
-   height:9.3rem;
+   width:27vw;
+   height:12rem;
    border: .2rem solid #0e0e0e;
    border-radius:.7rem;
+   @media (max-width:800px){
+      display:none;
+      visibility:hidden;
+      width:0;
+      height:0;
+      margin:0;
+   }
 `
