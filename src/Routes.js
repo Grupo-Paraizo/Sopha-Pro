@@ -6,7 +6,7 @@ import GeolocationPage from './Pages/GeolocalionPage';
 const Routes = () => {
    return (
       <Switch>
-         <Route exact path="/GeolocationPage">
+         <Route exact path="/">
             <GeolocationPage />
          </Route>
       </Switch>

@@ -5,7 +5,7 @@ export const Container = styled.section`
    flex-wrap:wrap;
    margin-left:3.5rem;
    margin-bottom: 5rem;
-   max-width:100rem;
+   width:65vw;
    height: 25rem;
    border: .1rem solid #d7d8da;
    border-radius: .2rem;

@@ -7,11 +7,13 @@ import ContactList from '../SocialNetWork';
 
 const GeolocationServicesContainer = () => {
    return (
-      <Container>
-         <ImgServicesContainer />
-         <SectionProfessionals />
-         <ContactList />
-      </Container>
+      <div>
+         <Container>
+            <ImgServicesContainer />
+            <SectionProfessionals />
+            <ContactList />
+         </Container>
+      </div>
 
    );
 }

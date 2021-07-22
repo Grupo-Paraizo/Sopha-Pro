@@ -1,11 +1,10 @@
 import styled from "styled-components";
 export const ContainerImg = styled.div`
-   grid-area:column1;
    display:flex;
-   justify-content:space-between;
+   justify-content:space-between !important;
    align-items:center;
    background:#d7d8da;
-   width:35rem;
+   width:23vw;
    height:25rem;
       button{
          border:none;
@@ -15,5 +14,5 @@ export const ContainerImg = styled.div`
       }
          img{
             max-width:2.5rem;
-         }
-`
+         }     
+`;
