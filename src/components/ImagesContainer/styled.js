@@ -15,4 +15,10 @@ export const ContainerImg = styled.div`
          img{
             max-width:2.5rem;
          }     
+@media (max-width:780px){
+   display:none;
+   visibility:hidden;
+   width:0;
+   height:0;
+}         
 `;

@@ -14,12 +14,21 @@ export const Page = styled.div`
          section{
             display:flex;
             flex-direction:column;
+            align-items:center;
             justify-content:center;
+         }
+         header{
+            margin-left:-7rem;
+            padding-right:0;
          }
             div{
                flex-direction:column;
                max-width:90vw;
                justify-content:center;
             }
+               aside{
+                  margin-left:5rem;
+      
+               }
       }   
 `;

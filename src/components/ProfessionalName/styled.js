@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const NameContainer = styled.div`
-   grid-area:column3;
    margin-left:1.9rem;
    margin-top:1.6rem;
    margin-bottom:2.4rem;
@@ -20,5 +19,16 @@ export const NameContainer = styled.div`
       }
          p{
             font-size:1.6rem;
+            word-wrap:wrap;
       }
+
+@media (max-width:800px){
+   justify-content:flex-start;
+   align-items:flex-start;
+      p{
+      margin-top:0;
+      margin-bottom:5rem;
+      display:inline-block;
+      }
+}
 `;
