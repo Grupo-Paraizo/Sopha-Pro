@@ -10,3 +10,4 @@ export const Header = styled.header`
       align-items:flex-start;
    }
 `;
+export const NavMenu = styled.ul``;
