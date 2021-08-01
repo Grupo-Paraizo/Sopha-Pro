@@ -45,6 +45,9 @@ export const Search = styled.div`
          background:transparent;
          border:none;
       }
+       button:hover{
+            opacity:0.8;
+         }
       img{
          width:3rem;
          cursor: pointer;
@@ -54,8 +57,9 @@ export const Search = styled.div`
          outline:none;
          border:none;
          width:31rem;
-         font-size:1.6rem;
+         font-size:1.8rem;
          padding-left:.8rem;
+         color:#262827;
       }
          input::placeholder{
             color: #9b98a4;
