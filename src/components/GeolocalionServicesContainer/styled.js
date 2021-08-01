@@ -11,14 +11,4 @@ export const Container = styled.section`
    border-radius: .2rem;
    background: #fff;
    
-   @media (max-width:800px){
-      flex-direction:column;
-      flex-wrap:nowrap;
-      box-sizing:border-box;
-      width:80vw;
-      height:30rem;
-      justify-content:left;
-      align-items:center;
-      padding:0;
-   }
 `;
