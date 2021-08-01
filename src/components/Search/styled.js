@@ -30,13 +30,35 @@ export const Button = styled.button`
       }
 `;
 
-export const Search = styled.input`
-   display:flex;
+
+export const Search = styled.div`
+   display:block;
+   justify-content:left;
+   align-items:center;
    width: 35rem;
    font-size: 1.6rem;
-   padding-left: .5rem;
-   height: 5rem;
-   outline:none;
+   height: 4rem;
+  box-sizing:v=border-box;
    border: .2rem solid #d7d8da;
    border-radius: .8rem;
+      button{
+         background:transparent;
+         border:none;
+      }
+      img{
+         width:3rem;
+         cursor: pointer;
+         padding-left:.8rem;
+      }
+      input{
+         outline:none;
+         border:none;
+         width:31rem;
+         font-size:1.6rem;
+         padding-left:.8rem;
+      }
+         input::placeholder{
+            color: #9b98a4;
+            font-size:1.4rem;
+         }
 `;

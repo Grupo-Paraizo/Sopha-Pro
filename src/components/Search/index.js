@@ -5,9 +5,15 @@ import { Container, Button, Search } from './styled';
 const SearchBox = () => {
    return (
       <Container>
-         <Search
-            placeholder="Profissionais, cidades ou estados">
+         <Search>
+            <button type="submit">
+               <img src="../../../lupa.svg" alt=""></img>
+            </button>
+            <input type="text"
+               placeholder="Profissionais, cidades ou estados">
+            </input>
          </Search>
+
          <Button>
             Buscar
          </Button>
