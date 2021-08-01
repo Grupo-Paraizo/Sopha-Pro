@@ -8,10 +8,6 @@ export const Container = styled.section`
    max-width:35vw;
    height:23rem;
 
-   @media (max-width:800px){
-      width:40rem;
-      display:inline-block;
-   }
 `;
 export const NameContainer = styled.div`
    margin-left:1.9rem;
@@ -33,17 +29,7 @@ export const NameContainer = styled.div`
          p{
             font-size:1.6rem;
             word-wrap:wrap;
-      }
-
-@media (max-width:800px){
-   justify-content:flex-start;
-   align-items:flex-start;
-      p{
-      margin-top:0;
-      margin-bottom:5rem;
-      display:inline-block;
-      }
-}
+         }
 `;
 export const AdressDiv = styled.div`
    margin-left:2.7rem;
@@ -68,11 +54,4 @@ export const TextArea = styled.textarea`
    height:12rem;
    border: .2rem solid #0e0e0e;
    border-radius:.7rem;
-   @media (max-width:800px){
-      display:none;
-      visibility:hidden;
-      width:0;
-      height:0;
-      margin:0;
-   }
-`
+`;

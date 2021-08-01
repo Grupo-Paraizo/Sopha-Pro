@@ -2,7 +2,7 @@ import React from 'react';
 import { Page } from './styled';
 import HeaderContainer from '../../components/Header';
 import GeolocationServicesContainer from '../../components/GeolocalionServicesContainer';
-import SearchContainer from '../../components/SearchBox';
+import SearchBox from '../../components/Search';
 
 const GeolocationPage = () => {
    return (
@@ -13,7 +13,7 @@ const GeolocationPage = () => {
             </header>
             <div>
                <aside>
-                  <SearchContainer />
+                  <SearchBox />
                </aside>
                <main>
                   <GeolocationServicesContainer />
