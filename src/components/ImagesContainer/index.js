@@ -5,14 +5,7 @@ import { ContainerImg } from './styled';
 const ImgServicesContainer = () => {
    return (
       <ContainerImg>
-         <button>
-            <img src="../../../../before.svg" alt=""></img>
-         </button>
-
-         <button>
-            <img src="../../../../next.svg" alt=""></img>
-         </button>
-
+         <img className="slide" src="../../../movel.jpeg" alt=""></img>
       </ContainerImg>
    );
 }

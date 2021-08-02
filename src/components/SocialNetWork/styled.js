@@ -5,7 +5,7 @@ export const List = styled.ul`
       max-width:10vw;
       flex-direction:column;
       justify-content:space-between;
-      margin: 1.6rem 2rem 1.6rem 3.2rem;
+      margin-left: 5rem;
    li{
       list-style:none;
    }
@@ -14,8 +14,5 @@ export const List = styled.ul`
       }
  @media (max-width:800px){
     flex-direction:row;
-      img{
-         align-self:center;
-      }
  }     
 `;
