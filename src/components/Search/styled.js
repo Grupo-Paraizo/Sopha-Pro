@@ -38,7 +38,7 @@ export const Search = styled.div`
    width: 35rem;
    font-size: 1.6rem;
    height: 4rem;
-  box-sizing:v=border-box;
+  box-sizing:border-box;
    border: .2rem solid #d7d8da;
    border-radius: .8rem;
       button{

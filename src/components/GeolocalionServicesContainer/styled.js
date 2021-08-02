@@ -13,6 +13,10 @@ export const Container = styled.section`
    border-radius: .2rem;
    background: #fff;
    box-sizing:border-box;
+      @media(max-width:800px){
+         flex-direction:column;
+         margin-left:0;
+      }
 `;
 export const InfosContainer = styled.div`
    max-width: 45rem;
@@ -43,6 +47,10 @@ export const InfosContainer = styled.div`
       img{
          background:transparent;
       }
+      @media(max-width:800px){
+         max-width:100vw;
+         flex-wrap:wrap;
+      }
 `;
 
 export const DescriptionContainer = styled.div`
@@ -55,4 +63,10 @@ export const DescriptionContainer = styled.div`
    height:9.3rem;
    border: .2rem solid #0e0e0e;
    border-radius:.7rem;
+   position: relative;
+      h3{
+         position: absolute;
+         top:0;
+         font-size:1.3rem;
+      }
 `;

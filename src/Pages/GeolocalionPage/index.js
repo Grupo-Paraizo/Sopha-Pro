@@ -7,21 +7,19 @@ import SearchBox from '../../components/Search';
 const GeolocationPage = () => {
    return (
       <Page>
-         <section>
-            <header>
-               <HeaderContainer />
-            </header>
-            <div>
-               <aside>
-                  <SearchBox />
-               </aside>
-               <main>
-                  <GeolocationServicesContainer />
-                  <GeolocationServicesContainer />
-                  <GeolocationServicesContainer />
-               </main>
-            </div>
-         </section>
+         <header>
+            <HeaderContainer />
+         </header>
+         <div>
+            <aside>
+               <SearchBox />
+            </aside>
+            <main>
+               <GeolocationServicesContainer />
+               <GeolocationServicesContainer />
+               <GeolocationServicesContainer />
+            </main>
+         </div>
       </Page>
 
    );
