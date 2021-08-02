@@ -3,7 +3,6 @@ export const ContainerImg = styled.div`
    display:flex;
    box-sizing:border-box;
    align-items:center;
-   border-right: .2rem solid #d7d8da;
    width:35rem;
    height:25rem;     
   img.slide{

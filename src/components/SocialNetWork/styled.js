@@ -14,8 +14,5 @@ export const List = styled.ul`
       }
  @media (max-width:800px){
     flex-direction:row;
-      img{
-         align-self:center;
-      }
  }     
 `;

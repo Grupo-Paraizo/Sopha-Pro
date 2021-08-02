@@ -7,6 +7,9 @@ export const Container = styled.div`
    display:flex;
    flex-wrap:wrap;
    margin-bottom:2rem;
+      input{
+         padding:.8rem 0;
+      }
 `;
 
 export const Button = styled.button`

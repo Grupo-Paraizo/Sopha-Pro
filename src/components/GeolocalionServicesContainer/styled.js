@@ -13,10 +13,14 @@ export const Container = styled.section`
    border-radius: .2rem;
    background: #fff;
    box-sizing:border-box;
-      @media(max-width:800px){
-         flex-direction:column;
-         margin-left:0;
-      }
+
+@media(max-width:800px){
+   flex-direction:column;
+   margin-left:0;
+   width:95vw;
+   margin: 0 auto;
+   margin-bottom:1.5rem;
+}
 `;
 export const InfosContainer = styled.div`
    max-width: 45rem;
