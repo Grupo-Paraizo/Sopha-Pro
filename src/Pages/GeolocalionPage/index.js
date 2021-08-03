@@ -10,7 +10,7 @@ const GeolocationPage = () => {
          <header>
             <HeaderContainer />
          </header>
-         <div>
+         <div className="main">
             <aside>
                <SearchBox />
             </aside>
