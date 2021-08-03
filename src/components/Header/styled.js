@@ -1,12 +1,10 @@
 import styled from "styled-components";
 
-export const Header = styled.header`
+const Header = styled.header`
    max-width:100vw;
    height:6rem;
    margin-bottom:1.5rem;
    display:flex;
-   justify-content:left;
-  
 `;
 export const Menu = styled.ul`
    height:6rem;
@@ -33,3 +31,4 @@ export const Menu = styled.ul`
 
 
 `;
+export default Header;

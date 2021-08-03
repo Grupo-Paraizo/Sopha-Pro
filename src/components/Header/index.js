@@ -1,5 +1,6 @@
 import React from 'react';
-import { Header, Menu } from './styled';
+import { Menu } from './styled';
+import Header from './styled';
 
 const HeaderContainer = () => {
    return (
@@ -11,5 +12,7 @@ const HeaderContainer = () => {
          </Menu>
       </Header>
    );
-}
+};
+
+
 export default HeaderContainer;
