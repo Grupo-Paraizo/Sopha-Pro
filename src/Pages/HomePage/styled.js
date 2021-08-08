@@ -5,5 +5,5 @@ export const Page = styled.main`
    height:100%;
    display:flex;
    background: url('../../../bgSopha.jpg')center;
-   background-size: 80vh;
+   background-size: cover;
 `;
