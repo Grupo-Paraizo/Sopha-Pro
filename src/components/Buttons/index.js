@@ -3,8 +3,10 @@ import { Btn } from './styled';
 
 const HomeBtn = () => {
    return (
+
       <Btn>
          <a href="/login">Entrar</a>
-      </Btn>)
+      </Btn>
+   )
 }
 export default HomeBtn;

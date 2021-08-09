@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Page = styled.main`
    width:100vw;
-   height:70vh;
+   height:65vh;
    background: url('../../../bgSopha.jpg')center;
    background-size: cover;
       div.header{
@@ -13,15 +13,15 @@ export const Page = styled.main`
       }
       section.main{
          display:flex;
-         width:70vw;
-         margin:5rem auto 0 auto;
+         width:80vw;
+         margin:0 0 0 25rem;
          align-items:stretch;
       }
       div.contentLeft{
       }
 
       div.phone{
-         margin-top: -10rem;
+         margin-top: -6rem;
       }
       footer{
          display:flex;

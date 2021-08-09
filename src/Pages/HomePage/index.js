@@ -8,13 +8,11 @@ const Home = () => {
    return (
       <Page>
          <div className="header">
-            <HomeBtn>
-            </HomeBtn>
+            <HomeBtn />
          </div>
          <section className="main">
             <div className="contentLeft">
-               <TextHome>
-               </TextHome>
+               <TextHome />
             </div>
             <div className="phone">
                <img src="../../../phone.png" alt=""></img>
