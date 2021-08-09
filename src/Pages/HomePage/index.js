@@ -1,6 +1,6 @@
 import React from 'react';
 import { Page } from './styled';
-
+import { Link } from 'react-router-dom';
 import HomeBtn from '../../components/Buttons';
 import TextHome from '../../components/TextHome';
 
@@ -18,7 +18,7 @@ const Home = () => {
                <img src="../../../phone.png" alt=""></img>
             </div>
          </section>
-         <footer><a href="/infos" className="footerLink">Como funciona?</a></footer>
+         <footer><Link to="/infos" className="footerLink">Como funciona?</Link></footer>
       </Page >
    )
 }

@@ -1,10 +1,11 @@
 import React from 'react';
 import { FormContainer } from './styled';
+import { Link } from 'react-router-dom';
 
 const FormLogin = () => {
    return (
       <FormContainer>
-         <img src="../../../LogoSophaLogin.svg" alt=""></img>
+         <Link to="/"> <img src="../../../LogoSophaLogin.svg" alt=""></img></Link>
          <form>
             <input
                placeholder="seuEmail@exemplo.com"
