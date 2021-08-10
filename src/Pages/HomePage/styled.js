@@ -2,37 +2,40 @@ import styled from "styled-components";
 
 export const Page = styled.main`
    width:100vw;
-   height:65vh;
+   height:75vh;
    background: url('../../../bgSopha.jpg')center;
    background-size: cover;
+   display:flex;
+   flex-direction:column;
       div.header{
          display:flex;
          justify-content: flex-end;
          height:15vh;
-         padding-right:10rem;
+         padding-right:8rem;
       }
       section.main{
          display:flex;
-         width:80vw;
-         margin:0 0 0 25rem;
-         align-items:stretch;
+         max-width:80vw;
+         max-height:20vh;
+         align-items:center;
+         justify-content:center;
+         position:relative;
       }
       div.contentLeft{
+         
       }
-
       div.phone{
-         margin-top: -6rem;
+        max-height:15rem;
+        max-width:10rem;
       }
       footer{
          display:flex;
          align-items:center;
          justify-content:center;
-         margin-top:-4rem;
       }
-         a.footerLink{
-            text-decoration:none;
+         h2.footerLink{
             font-size:3rem;
             color:#0f0f0f; 
             padding-bottom: 5rem;
-         }
+         }  
 `;
