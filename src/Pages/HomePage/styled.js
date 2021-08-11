@@ -6,8 +6,10 @@ export const Page = styled.main`
    background: url('../../../bgSopha.jpg')center;
    background-size: cover;
    display:flex;
+   flex:1;
    flex-direction:column;
    align-items:center;
+   box-sizing:border-box;
 `;
 
 export const Main = styled.div`
@@ -18,9 +20,8 @@ export const Main = styled.div`
 `;
 export const Header = styled.header`
    display:flex;
-   justify-content:space-between;
+   justify-content:flex-end;
    width:90vw;
-   padding-bottom:10rem;
    padding-top:2rem;
    align-items:center;
 `;
@@ -36,8 +37,19 @@ export const Footer = styled.footer`
          }  
 `;
 export const ImgContainer = styled.div`
-      img{
-         display:inline-block;
-         max-width:100%;
-      }
+      display:flex;
+      flex:1;
+      justify-content:center;
+      align-items:center;
+     background: url('../../../bgLogo.jpeg') center;
+     max-width:50rem;
+     height:50rem;
+`;
+
+export const HomeContainer = styled.div`
+   display:flex;
+   flex: 1;
+   align-items:center;
+   justify-content:space-between;
+   width:80vw;
 `;

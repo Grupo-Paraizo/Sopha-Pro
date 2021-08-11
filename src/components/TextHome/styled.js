@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-   max-height:40rem;
-   max-width:95rem;
+   max-height:70rem;
+   max-width:70rem;
 `;
 
 export const LogoContainer = styled.div`
