@@ -1,25 +1,25 @@
 import React from 'react';
-import { Page } from './styled';
+import { Page, Main, Header, Footer, ImgContainer, HomeContainer } from './styled';
 import HomeBtn from '../../components/Buttons';
 import TextHome from '../../components/TextHome';
 
 const Home = () => {
    return (
-      <Page>
-
-         <div className="header">
-            <HomeBtn />
-         </div>
-         <section className="main">
-            <div className="contentLeft">
+      <Main>
+         <Page>
+            <Header>
+               <HomeBtn />
+            </Header>
+            <HomeContainer>
+               <ImgContainer>
+                  <img src="../../../SophaLogo1.svg" alt=""></img>
+                  <img src="../../../SophaLogo2.svg" alt=""></img>
+               </ImgContainer>
                <TextHome />
-            </div>
-            <div className="phone">
-               <img src="../../../phone.png" alt=""></img>
-            </div>
-         </section>
-         <footer><h2 className="footerLink">Como funciona?</h2></footer>
-      </Page >
+            </HomeContainer>
+         </Page >
+         <Footer><h2 className="footerLink">Como funciona?</h2></Footer>
+      </Main>
    )
 }
 export default Home;

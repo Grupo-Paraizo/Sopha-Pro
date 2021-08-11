@@ -11,7 +11,7 @@ export const Btn = styled.button`
    
    background:none;
    a{
-      font-size:1.6rem;
+      font-size:2rem;
       color:#fafafa;
       font-weight:bold;
       text-decoration:none;

@@ -10,6 +10,7 @@ export const FormContainer = styled.section`
    flex-direction:column;
    justify-content:center;
    align-items:center;
+   box-shadow: 5px 2px 3px 0 #0e0e0e;
    img{
       margin-bottom:3.2rem;
    }
