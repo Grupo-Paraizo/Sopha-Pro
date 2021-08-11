@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-   height:24rem;
-   max-width:57rem;
+   max-height:40rem;
+   max-width:95rem;
 `;
 
 export const LogoContainer = styled.div`
@@ -10,14 +10,17 @@ export const LogoContainer = styled.div`
 `;
 
 export const TextContainer = styled.div`
+   padding:2.5rem;
+   border-radius:8px;
+   text-align:center;
    h3{
-      font-size:2.8rem;
+      font-size:4rem;
       font-weight:400;
-      color:#fafafa
+      color:#fafafa;
    }
    p{
-      font-size:1.8rem;
-      color:#fafafa
+      font-size:2.5rem;
+      color:#fafafa;
    }
 `;
 

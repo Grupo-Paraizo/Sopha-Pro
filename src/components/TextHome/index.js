@@ -1,14 +1,9 @@
 import React from 'react';
-import { Container, LogoContainer, TextContainer } from './styled';
+import { Container, TextContainer } from './styled';
 
 const TextHome = () => {
    return (
       <Container>
-         <LogoContainer>
-            <img src="../../../SophaLogo1.svg" alt=""></img>
-            <img src="../../../SophaLogo2.svg" alt=""></img>
-         </LogoContainer>
-
          <TextContainer>
             <h3>COMPRAR MÓVEIS PLANEJADOS NUNCA FOI TÃO SIMPLES</h3>
             <p>
