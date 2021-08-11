@@ -3,6 +3,11 @@ import styled from "styled-components";
 export const Container = styled.div`
    max-height:70rem;
    max-width:70rem;
+   @media (max-width:860px){
+      width:100vw;
+      display:flex;
+      flex-direction:column;
+   }
 `;
 
 export const LogoContainer = styled.div`

@@ -10,6 +10,9 @@ export const Page = styled.main`
    flex-direction:column;
    align-items:center;
    box-sizing:border-box;
+   @media (max-width:860px){
+      height:100%;
+   }
 `;
 
 export const Main = styled.div`
@@ -17,6 +20,7 @@ export const Main = styled.div`
    width:100vw;
    display:flex;
    flex-direction:column;
+   overflow-x:hidden;
 `;
 export const Header = styled.header`
    display:flex;
@@ -24,6 +28,10 @@ export const Header = styled.header`
    width:90vw;
    padding-top:2rem;
    align-items:center;
+   @media (max-width:860px){
+      justify-content:center;
+      display:none;
+   }
 `;
 
 export const Footer = styled.footer`
@@ -41,15 +49,16 @@ export const ImgContainer = styled.div`
       flex:1;
       justify-content:center;
       align-items:center;
-     background: url('../../../bgLogo.jpeg') center;
-     max-width:50rem;
-     height:50rem;
 `;
-
 export const HomeContainer = styled.div`
    display:flex;
    flex: 1;
    align-items:center;
    justify-content:space-between;
    width:80vw;
+         @media (max-width:860px){
+            width:90vw;
+            flex-direction:column;
+            padding-top:2rem;
+         }
 `;
