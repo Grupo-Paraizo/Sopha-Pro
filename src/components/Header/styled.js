@@ -12,6 +12,9 @@ export const Menu = styled.ul`
    display:flex;
    align-items:center;
    justify-content:center;
+      li.menuAmb{
+         display:none;
+      }
       li{
          list-style:none;
          display: inline-block;
@@ -28,7 +31,17 @@ export const Menu = styled.ul`
             a:hover{
                color:#1b1b1f;
             }
-
+@media (max-width:860px){
+   max-width:90vw;
+   justify-content:flex-start;
+   li{
+   display:none;
+   }
+   li.menuAmb{
+      display:block;
+      cursor: pointer;
+   }
+}
 
 `;
 export default Header;

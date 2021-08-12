@@ -6,9 +6,6 @@ const SearchBox = () => {
    return (
       <Container>
          <Search>
-            <button type="submit">
-               <img src="../../../lupa.svg" alt=""></img>
-            </button>
             <input type="text"
                placeholder="Profissionais, cidades ou estados">
             </input>
