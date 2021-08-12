@@ -10,14 +10,11 @@ export const Container = styled.div`
    }
 `;
 
-export const LogoContainer = styled.div`
-   margin-bottom:2rem;
-`;
-
 export const TextContainer = styled.div`
    padding:2.5rem;
    border-radius:8px;
-   text-align:center;
+   text-align:justify;
+   animation:TextAnimation 1.5s forwards;
    h3{
       font-size:4rem;
       font-weight:400;
@@ -26,6 +23,17 @@ export const TextContainer = styled.div`
    p{
       font-size:2.5rem;
       color:#fafafa;
+   }
+   @keyframes TextAnimation{
+      from{
+         opacity:0;
+         transform:translate3d(0, -100px, 0);
+      }
+
+      to{
+         opacity:1;
+         transform:translate3d(0, 0, 0);
+      }
    }
 `;
 

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Page = styled.main`
    width:100vw;
    height:85vh;
-   background: url('../../../bgSopha.jpg')center;
+   background: url('../../../bgSopha.jpg');
    background-size: cover;
    display:flex;
    flex:1;
@@ -49,6 +49,17 @@ export const ImgContainer = styled.div`
       flex:1;
       justify-content:center;
       align-items:center;
+      animation:ImgAnimation 3.5s forwards;
+      @keyframes ImgAnimation{
+         from{
+            opacity:0;
+            transform:translate3d(0, 0, -100px);
+         }
+         to{
+            opacity:1;
+            transform:translate3d(0, 0, 0);
+         }
+      }
 `;
 export const HomeContainer = styled.div`
    display:flex;

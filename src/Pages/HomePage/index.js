@@ -11,11 +11,11 @@ const Home = () => {
                <HomeBtn />
             </Header>
             <HomeContainer>
-               <ImgContainer>
-                  <img src="../../../SophaLogo1.svg" alt=""></img>
-                  <img src="../../../SophaLogo2.svg" alt=""></img>
-               </ImgContainer>
                <TextHome />
+               <ImgContainer>
+                  <img src="../../../SophaLogo.png" alt=""></img>
+               </ImgContainer>
+
             </HomeContainer>
          </Page >
          <Footer><h2 className="footerLink">Como funciona?</h2></Footer>
