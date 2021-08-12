@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Page = styled.main`
-   width:100vw;
+   max-width:100vw;
    height: 100vh;
    background: url('../../../bgSopha.jpg') no-repeat center;
    background-size:cover;
@@ -9,8 +9,8 @@ export const Page = styled.main`
    flex-direction:column;
    align-items:center;
    justify-content:center;
+   box-sizing:border-box;
       footer{
-         margin-top:2.4rem;
          color:#fafafa;
       }
          p{
