@@ -16,6 +16,10 @@ const FormLogin = () => {
                type="password"
                required></input>
             <button type="submit">Entrar</button>
+            <span> Ainda não tem conta?</span>
+            <Link to="/cadastro">
+               <button className="cadastro">CADASTRAR-SE</button>
+            </Link>
             <a href="/changePassword">Esqueci minha senha </a>
          </form>
       </FormContainer>

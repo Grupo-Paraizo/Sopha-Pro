@@ -8,10 +8,11 @@ export const Page = styled.main`
          justify-content:center;
       }
    @media (max-width:800px){
+      padding:0;
       div.main{
          flex-direction:column;
          align-items:center;
-         justify-content:flex-start;
+        
       }
    }   
 `;

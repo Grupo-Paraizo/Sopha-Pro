@@ -14,12 +14,13 @@ export const Container = styled.section`
    background: #fff;
    box-sizing:border-box;
 
-@media(max-width:800px){
+@media(max-width:860px){
    flex-direction:column;
    margin-left:0;
    width:95vw;
-   margin: 0 auto;
    margin-bottom:1.5rem;
+   margin-left:0;
+   justify-content:center;
 }
 `;
 export const InfosContainer = styled.div`
@@ -54,6 +55,12 @@ export const InfosContainer = styled.div`
       @media(max-width:800px){
          max-width:100vw;
          flex-wrap:wrap;
+            div{
+               margin-left:1rem;
+            }
+            section{
+               margin-left:-1rem;
+            }
       }
 `;
 
@@ -73,4 +80,8 @@ export const DescriptionContainer = styled.div`
          top:0;
          font-size:1.3rem;
       }
+   @media (max-width:860px){
+      width:88vw;
+      margin:0;
+   }   
 `;

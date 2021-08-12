@@ -14,5 +14,9 @@ export const List = styled.ul`
       }
  @media (max-width:800px){
     flex-direction:row;
+    margin-left:1rem;
+    li{
+       margin-right:4rem;
+    }
  }     
 `;
