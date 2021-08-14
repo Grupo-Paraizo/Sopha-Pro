@@ -8,6 +8,9 @@ const Home = () => {
       <Main>
          <Page>
             <Header>
+               <div className="img">
+                  <img src="../../../SophaLogo1.svg" alt=""></img>
+               </div>
                <HomeBtn />
             </Header>
             <HomeContainer>

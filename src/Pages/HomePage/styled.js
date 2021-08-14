@@ -28,9 +28,20 @@ export const Header = styled.header`
    width:90vw;
    padding-top:2rem;
    align-items:center;
+      div.img{
+         display:flex;
+         align-items:center;
+         justify-content:space-between;
+         display:none;
+      }
    @media (max-width:860px){
-      justify-content:center;
-      display:none;
+      justify-content:space-between;
+      align-items:center;
+      div.img{
+         display:flex;
+         align-items:center;
+         justify-content:space-between;
+      }
    }
 `;
 
@@ -50,6 +61,9 @@ export const ImgContainer = styled.div`
       justify-content:center;
       align-items:center;
       animation:ImgAnimation 3.5s forwards;
+      @media (max-width:860px){
+         display:none;
+      }
       @keyframes ImgAnimation{
          from{
             opacity:0;
