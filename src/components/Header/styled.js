@@ -33,7 +33,7 @@ export const Menu = styled.ul`
             }
 @media (max-width:860px){
    max-width:90vw;
-   justify-content:flex-start;
+   justify-content:space-between;
    li{
    display:none;
    }
