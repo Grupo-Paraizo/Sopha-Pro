@@ -1,6 +1,6 @@
 import React from 'react';
 import { Page } from '../Login/styled';
-import SignUp from '../../components/Cadastro';
+import SignUp from '../../components/CreateAcount';
 
 const SignUpPage = () => {
    return (

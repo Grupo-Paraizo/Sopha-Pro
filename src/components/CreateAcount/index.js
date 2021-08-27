@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container } from './styled';
 import { Link } from 'react-router-dom';
 
 const SignUp = () => {
+
+   const onSubmit = (event) => {
+      event.preventDefault()
+   };
+
    return (
       <Container>
          <h2>Registrar-se</h2>
          <Link to="/"> <img src="../../../LogoSophaLogin.svg" alt=""></img></Link>
-         <form>
+         <form onSubmit={onSubmit}>
             <input
                id="fullname"
                placeholder="Seu nome completo"
