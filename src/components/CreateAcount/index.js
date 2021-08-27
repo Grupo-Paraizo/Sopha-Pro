@@ -1,11 +1,21 @@
 import React, { useState } from 'react';
+import UserPool from '../../UserPool';
 import { Container } from './styled';
 import { Link } from 'react-router-dom';
 
 const SignUp = () => {
+   const [email, setEmail] = useState("");
+   const [password, setPassword] = useState("");
+   const [fullname, setFullname] = useState("");
 
    const onSubmit = (event) => {
       event.preventDefault()
+      UserPool.signUp(email, password, fullname, [], null, (err, data) => {
+         if (err) {
+            console.log(err)
+         }
+         console.log(data)
+      })
    };
 
    return (
@@ -14,29 +24,32 @@ const SignUp = () => {
          <Link to="/"> <img src="../../../LogoSophaLogin.svg" alt=""></img></Link>
          <form onSubmit={onSubmit}>
             <input
-               id="fullname"
+               value={fullname}
+               onChange={(event) => setFullname(event.target.value)}
                placeholder="Seu nome completo"
                type="text"
                required>
             </input>
             <input
-               id="email"
+               value={email}
+               onChange={(event) => setEmail(event.target.value)}
                placeholder="Informe seu email"
                type="email"
                required>
             </input>
             <input
-               id="password"
+               value={password}
+               onChange={(event) => setPassword(event.target.value)}
                placeholder="Cadastre uma senha senha"
-               type="password"
+               type="text"
                required>
             </input>
-            <input
+            {/*   <input
                id="confirmPassword"
                placeholder="Repetir senha"
                type="password"
                required>
-            </input>
+            </input>*/}
             <button type="submit">ENVIAR</button>
 
          </form>

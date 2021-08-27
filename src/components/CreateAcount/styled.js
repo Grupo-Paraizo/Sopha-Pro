@@ -46,6 +46,10 @@ export const Container = styled.section`
       cursor:pointer;
       border-radius:8px;
       margin-bottom:2rem;
+      transition: .3s;
+   }
+   button:hover{
+      opacity:0.7;
    }
    
    footer{
