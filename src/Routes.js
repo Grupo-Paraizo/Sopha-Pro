@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import Home from './Pages/HomePage';
 import GeolocationPage from './Pages/GeolocalionPage';
 import LoginPage from './Pages/Login';
-import SignUpPage from './Pages/Cadastro';
+import SignUpPage from './Pages/SignUpPage';
 
 
 
