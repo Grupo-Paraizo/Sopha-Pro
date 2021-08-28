@@ -10,11 +10,10 @@ const SignUp = () => {
 
    const onSubmit = (event) => {
       event.preventDefault()
-      UserPool.signUp(email, password, fullname, [], null, (err, data) => {
+      UserPool.signUp(email, password, [], null, (err, data) => {
          if (err) {
             console.log(err)
          }
-         console.log(data)
       })
    };
 
@@ -41,7 +40,7 @@ const SignUp = () => {
                value={password}
                onChange={(event) => setPassword(event.target.value)}
                placeholder="Cadastre uma senha senha"
-               type="text"
+               type="password"
                required>
             </input>
             {/*   <input
