@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from './Pages/HomePage';
-import GeolocationPage from './Pages/GeolocalionPage';
+import GeolocationPage from './Pages/GeolocationPage';
 import LoginPage from './Pages/Login';
 import SignUpPage from './Pages/SignUpPage';
 

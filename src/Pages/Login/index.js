@@ -1,6 +1,6 @@
 import React from 'react';
 import { Page } from './styled';
-import FormLogin from '../../components/LoginForm';
+import FormLogin from '../../components/Authentication/LoginForm/index';
 
 
 

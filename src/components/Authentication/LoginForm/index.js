@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { CognitoUser, AuthenticationDetails } from "amazon-cognito-identity-js";
-import UserPool from '../../UserPool';
+import UserPool from '../../../UserPool';
 import { FormContainer } from './styled';
 import { Link } from 'react-router-dom';
+
 
 const FormLogin = () => {
    const [email, setEmail] = useState("");
