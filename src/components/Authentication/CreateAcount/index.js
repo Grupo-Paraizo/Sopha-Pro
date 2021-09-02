@@ -8,6 +8,13 @@ const SignUp = () => {
    const [password, setPassword] = useState("");
    const [fullname, setFullname] = useState("");
 
+   const clearInput = () => {
+      setEmail("")
+      setPassword("")
+      setFullname("")
+   }
+
+
    const onSubmit = (event) => {
       event.preventDefault()
       UserPool.signUp(email, password, [], null, (err, data) => {
@@ -15,6 +22,7 @@ const SignUp = () => {
             console.log(err)
          }
       })
+      clearInput()
    };
 
    return (

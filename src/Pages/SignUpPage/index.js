@@ -1,11 +1,14 @@
 import React from 'react';
 import { Page } from '../Login/styled';
 import SignUp from '../../components/Authentication/CreateAcount/index';
+import { Account } from '../../components/Authentication/Account';
 
 const SignUpPage = () => {
    return (
       <Page>
-         <SignUp />
+         <Account>
+            <SignUp />
+         </Account>
       </Page>
    )
 }

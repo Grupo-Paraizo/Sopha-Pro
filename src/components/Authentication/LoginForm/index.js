@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
-import { CognitoUser, AuthenticationDetails } from "amazon-cognito-identity-js";
-import UserPool from '../../../UserPool';
+import React, { useState, useContext } from 'react';
+import { AccountContext } from '../Account';
 import { FormContainer } from './styled';
 import { Link } from 'react-router-dom';
 
@@ -9,30 +8,23 @@ const FormLogin = () => {
    const [email, setEmail] = useState("");
    const [password, setPassword] = useState("");
 
+   const clearInput = () => {
+      setEmail("");
+      setPassword("")
+   }
+
+   const { authenticate } = useContext(AccountContext)
+
    const onSubmit = (event) => {
       event.preventDefault();
-
-      const user = new CognitoUser({
-         Username: email,
-         Pool: UserPool,
-      });
-
-      const authDetails = new AuthenticationDetails({
-         Username: email,
-         Password: password,
-      });
-
-      user.authenticateUser(authDetails, {
-         onSuccess: (data) => {
-            console.log("onSuccess: ", data);
-         },
-         onFailure: (err) => {
-            console.error("onFailure: ", err);
-         },
-         newPasswordRequired: (data) => {
-            console.log("newPasswordRequired: ", data);
-         },
-      });
+      authenticate(email, password)
+         .then(data => {
+            console.log("Usuário Logado", data)
+         })
+         .catch(err => {
+            console.log("Email ou senha incorretos", err)
+         });
+      clearInput();
    };
 
    return (
